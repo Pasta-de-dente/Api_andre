@@ -1,0 +1,11 @@
+POST http://localhost:3010/api/items
+Content-Type: application/json
+
+{
+    "id": "1",
+    "nome": "Balde",
+    "descricao": "para por liquidos"
+}
+
+###
+GET http://localhost:3010/api/items/
